@@ -41,7 +41,7 @@ jobs:
       uses: ServiceNow/servicenow-devops-test-report@v6.0.0
       with:
           # Devops Integration Token
-          devops-integration-token: ${{ secrets.SN_DEVOPS_TOKEN }}
+          devops-integration-token: ${{ secrets.SN_DEVOPS_INTEGRATION_TOKEN }}
           # ServiceNow Instance Name
           instance-url: ${{ secrets.SN_INSTANCE_URL }}
           # Orchestration Tool Id
