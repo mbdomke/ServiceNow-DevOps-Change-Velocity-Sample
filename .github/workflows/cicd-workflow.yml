@@ -185,7 +185,7 @@ jobs:
           # You can specify the assignment_group attribute either with name or sys_id. Example: "assignment_group":{"name": "Change Approval Team"} or "assignment_group": "5f721d93c0a8010e015533746de18bf9"
           # start_date: Enter the planned start date
           # end_date: Enter the planned end date
-          deployment-gate: {"environment":"deployment_gate","jobName":"Deploy"}
+          deployment-gate: '{"environment":"deployment_gate","jobName":"Deploy"}'
           
   deploy:
     name: 'Deploy'
